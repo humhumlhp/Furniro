@@ -4,97 +4,160 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furniro</title>
+    <link rel="stylesheet" href="app.css">
+    <script src="app.js"></script>
 </head>
 <body>
-    <div>
-        <img src="Furniro Logo" alt="Furniro">
-        <h1>Furniro</h1>
-        <ul>
-            <li><a href="index.html"></a>Home</li>
-            <li><a href="shop.html"></a>Shop</li>
-            <li>About</li>
-            <li><a href="contact.html"></a>Contact</li>
-        </ul>
-    </div>
-    <div>
-        <span>New Arrival</span>
-        <h1>Discover Our New Collection</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-        <a href="">BUY NOW</a>
-    </div>
-    <div>
-        <h1>Browse The Range</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div>
-            <img src="Dining" alt="Dining">
-            <h3><a href="">Dining</a></h3>
+<div class="holder">
+    <!--begining of main navigation list-->
+    <header class="navfullbar">
+        <div class="nav-logo">
+            <img class="logoimg" src="./Icons and Logos/furniro-logo.png" alt="">
+            <span class="logoname">Furniro</span>
         </div>
-        <div>
-            <img src="Living" alt="Living">
-            <h3><a href="">Living</a></h3>
-        </div>
-        <div>
-            <img src="Bedroom" alt="Bedroom">
-            <h3><a href="">Bedroom</a></h3>
-    </div>
-    <div>
-        <h2>Our Products</h2>
-        <div>
-            <span>-30%</span>
-            <img src="syltherine" alt="syltherine">
-            <h3>Syltherine</h3>
-            <span>Stylish cafe chair</span>
-            <span>Rp 2.500.000 </span> <span>Rp 3.500.000</span>
-        </div>
-        <div>
-            <img src="Leviosa" alt="Leviosa">
-            <h3>Leviosa</h3>
-            <span>Stylish cafe chair</span>
-            <span>Rp 2.500.000</span>
-        </div>
-        <div>
-            <span>-50%</span>
-            <img src="lolito" alt="lolito">
-            <h3>Lolito</h3>
-            <span>Luxury big sofa</span>
-            <span>Rp 7.000.000</span>
-        </div>
-        <div>
-            <span>New</span>
-            <img src="respira" alt="respira">
-            <h3>Respira</h3>
-            <span>Outdoor bar table and stool</span>
-            <span>Rp 500.000</span>
-        </div>
-        <div>
-            <img src="grifo" alt="grifo">
-            <h3>Grifo</h3>
-            <span>Night lamp</span>
-            <span>1.500.000</span>
-        </div>
-        <div>
-            <span>New</span>
-            <img src="muggo" alt="muggo">
-            <span>Small mug</span>
-            <span>Rp 150.000</span>
-        </div>
-        <div>
-            <span>-50%</span>
-            <img src="pingky" alt="pingky">
-            <h3>Pingky</h3>
-            <span>Cute bed set</span>
-            <span>Rp 7.000.000</span><span>Rp 14.000.000</span>
-        </div>
-        <div>
-            <span>New</span>
-            <img src="potty" alt="potty">
-            <h3>Potty</h3>
-            <span>Minimalist flower pot</span>
-            <span>Rp 500.000</span>
-        </div>
+        <!-- nav list-->
+        <ul class = "navparbar">
+            <li class="nav-item">
+                <a href="index.html" class="nav-link-active-link">
+                    <span class="nav-link-text">Home</span>    
+                </a>
+            </li>
 
-        <a href="">Show More</a>
+            <li class="nav-item">
+                <a href="shop.html" class="nav-link-active-link">
+                    <span class="nav-link-text">Shop</span>    
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="" class="nav-link-active-link">
+                    <span class="nav-link-text">About</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link-active-link">
+                    <span class="nav-link-text">Contact</span>    
+                </a>
+            </li>
+        </ul>
+        <!--End nav list-->
+        <!-- begining of account icons -->
+         <div class="accountarea">
+            <ul>
+                <li><img src=".\Icons and Logos\mdi_account-alert-outline.png" alt=""></li>
+                <li><img src=".\Icons and Logos\lookingforwhat.png" alt=""></li>
+                <li><img src=".\Icons and Logos\heart.png" alt=""></li>
+                <li><img src=".\Icons and Logos\shoppingcart.png" alt=""></li>
+            </ul>
+         </div>
+         <!-- end of account icons-->
+    </header>
+    <!--end of main navigation list-->
+    <!--begining of main content-->
+    <div class="maincontent">
         
+        <div class="centercontent">
+            <span class="textbold">New Arrival</span>
+            <h1 class="textboldhugh-color">Discover Our New Collection</h1>
+            <p class="textnormal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+            <div class="bigbutton">
+                <a href="" class="linkinbigbutton">
+                    <span class="textinbigbutton">BUY NOW</span>
+                </a>
+            </div>
+        </div>
+        <img src="./Icons and Logos/headerbg.jpg" class="imgbg">
+    </div>
+    <!--end of main content-->
+
+    <div class="section">
+            <h1 class="firstheader">Browse The Range</h1>
+            <p class="text-in-first-header">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <div class="subsection">
+            <div class="column">
+                <img src=".\Icons and Logos\Dining.png" alt="Dining">
+                <h3 class="products-link">
+                    <a href="">
+                        <span class="products">Dining</span>
+                    </a></h3>
+            </div>
+            <div class="column">
+                <img src=".\Icons and Logos\Living.png" alt="Living">
+                <h3 class="products-link">
+                    <a href="">
+                        <span class="products">Living</span>
+                    </a></h3>
+            </div>
+            <div class="column">
+                <img src=".\Icons and Logos\Bedroom.png" alt="Bedroom">
+                <h3 class="products-link">
+                    <a href="">
+                      <span class="products">Bedroom</span>
+                    </a></h3>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="firstheader">Our Products</h2>
+        <div class="subsection">
+            <div class="column">
+                <span>-30%</span>
+                <img src=".\Icons and Logos\syltherine.png" alt="syltherine">
+                <h3>Syltherine</h3>
+                <span>Stylish cafe chair</span>
+                <span>Rp 2.500.000 </span> <span>Rp 3.500.000</span>
+            </div>
+            <div class="column">
+                <img src=".\Icons and Logos\Leviosa.png" alt="Leviosa">
+                <h3>Leviosa</h3>
+                <span>Stylish cafe chair</span>
+                <span>Rp 2.500.000</span>
+            </div>
+            <div class="column">
+                <span>-50%</span>
+                <img src=".\Icons and Logos\lolito.png"alt="lolito">
+                <h3>Lolito</h3>
+                <span>Luxury big sofa</span>
+                <span>Rp 7.000.000</span>
+            </div>
+            <div class="column">
+                <span>New</span>
+                <img src=".\Icons and Logos\respira.png" alt="respira">
+                <h3>Respira</h3>
+                <span>Outdoor bar table and stool</span>
+                <span>Rp 500.000</span>
+            </div>
+            <div class="colum">
+                <img src=".\Icons and Logos\grifo.png" alt="grifo">
+                <h3>Grifo</h3>
+                <span>Night lamp</span>
+                <span>1.500.000</span>
+            </div>
+            <div class="column">
+                <span>New</span>
+                <img src=".\Icons and Logos\muggo.png" alt="muggo">
+                <span>Small mug</span>
+                <span>Rp 150.000</span>
+            </div>
+            <div class="column">
+                <span>-50%</span>
+                <img src=".\Icons and Logos\pingky.png" alt="pingky">
+                <h3>Pingky</h3>
+                <span>Cute bed set</span>
+                <span>Rp 7.000.000</span><span>Rp 14.000.000</span>
+            </div>
+            <div class="column">
+                <span>New</span>
+                <img src=".\Icons and Logos\potty.png" alt="potty">
+                <h3>Potty</h3>
+                <span>Minimalist flower pot</span>
+                <span>Rp 500.000</span>
+            </div>
+
+            
+        </div>
+        <a href="">Show More</a>
     </div>
 
     <hr>
@@ -134,7 +197,7 @@
     
     <hr> 
     <p>2023 Furniro. All rights reserved</p>
-
+</div>
 
 
 
